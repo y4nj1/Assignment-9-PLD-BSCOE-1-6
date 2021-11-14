@@ -19,33 +19,46 @@
 # Grade/Mark: 1.75
 # Description: Very Good
 
-def getGrade():
+def getLetter():
     prelimq = input("Is your grade INC, W, or D? Please enter Yes or No: ")
     if prelimq == "Yes":
-        textgrade = input("Please enter if your grade is INC, W, or D: ")
+        textgrade = input("Please enter if your grade is INC, W, or D: ") 
         return textgrade
-
-    elif prelimq == "No":
-        grade = float(input("Enter your grade here: "))
-        _grade = round(grade)
-        return _grade
-    
-    
-   
+    else:
+        if prelimq == "No":
+            _grade = float(input(("Enter your grade here: ")))
+            grade = round(_grade)
+            return grade
 
 def mark():
     if inputGrade == "INC":
-       print("Remarks:")
-       print("\033[1;35mIncomplete\033[0m")
+       print("Remarks: \x1b[38;5;207mIncomplete\x1b[0m")
        print("\033[1mYour grade has been recorded.\033[0m")
     elif inputGrade == "W":
-       print("Remarks:")
-       print("\033[1;94mWithdrawn\033[0m")
+       print("Remarks: \x1b[38;5;32mWithdrawn\x1b[0m")
        print("\033[1mYour grade has been recorded.\033[0m")
+    elif inputGrade == "D":
+        print("Remarks: \x1b[38;5;93mDropped\x1b[0m")
+        print("\033[1mYour grade has been recorded.\033[0m")
+    else:
+        if inputGrade >= 97 and inputGrade <= 100:
+            print("Grade:\x1b[38;5;46m 1.00 \x1b[0m")
+            print("Remarks: \x1b[38;5;46mExcellent\x1b[0m")
+            print("\033[1mYour grade has been recorded.\033[0m")
+        elif inputGrade >= 94 and inputGrade <= 96:
+            print("Grade:\x1b[38;5;83m 1.25 \x1b[0m")
+            print("Remarks: \x1b[38;5;83mVery Good\x1b[0m")
+            print("\033[1mYour grade has been recorded.\033[0m")
+        elif inputGrade >= 91 and inputGrade <= 93:
+            print("Grade:\x1b[38;5;81m 1.50 \x1b[0m")
+            print("Remarks:\x1b[38;5;81mGood\x1b[0m")
+            print("\033[1mYour grade has been recorded.\033[0m")
 
-# steps:
-# 1. ask for grade
-inputGrade = getGrade()
-# 2. determine the mark
-Mark = mark()
-# 3. display description
+
+inputGrade = getLetter()
+_Mark = mark()
+
+
+
+
+
