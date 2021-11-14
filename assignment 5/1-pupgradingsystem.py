@@ -51,35 +51,35 @@ def mark():
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 91 and inputGrade <= 93:
             print("Grade:\x1b[38;5;83m 1.50 \x1b[0m")
-            print("Remarks:\x1b[38;5;83mVery Good\x1b[0m")
+            print("Remarks: \x1b[38;5;83mVery Good\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 88 and inputGrade <= 90:
             print("Grade:\x1b[38;5;83m 1.75 \x1b[0m")
-            print("Remarks:\x1b[38;5;83mVery Good\x1b[0m")
+            print("Remarks: \x1b[38;5;83mVery Good\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 85 and inputGrade <= 87:
             print("Grade:\x1b[38;5;81m 2.00 \x1b[0m")
-            print("Remarks:\x1b[38;5;81mGood\x1b[0m")
+            print("Remarks: \x1b[38;5;81mGood\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 82 and inputGrade <= 84:
             print("Grade:\x1b[38;5;81m 2.25 \x1b[0m")
-            print("Remarks:\x1b[38;5;81mGood\x1b[0m")
+            print("Remarks: \x1b[38;5;81mGood\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 79 and inputGrade <= 81:
             print("Grade:\x1b[38;5;20m 2.50 \x1b[0m")
-            print("Remarks:\x1b[38;5;20mSatisfactory\x1b[0m")
+            print("Remarks: \x1b[38;5;20mSatisfactory\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 76 and inputGrade <= 78:
             print("Grade:\x1b[38;5;20m 2.75 \x1b[0m")
-            print("Remarks:\x1b[38;5;20mSatisfactory\x1b[0m")
+            print("Remarks: \x1b[38;5;20mSatisfactory\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade == 75:
             print("Grade:\x1b[38;5;226m 3.00 \x1b[0m")
-            print("Remarks:\x1b[38;5;226mPassed\x1b[0m")
+            print("Remarks: \x1b[38;5;226mPassed\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
         elif inputGrade >= 65 and inputGrade <= 74:
             print("Grade:\x1b[38;5;88m 5.00 \x1b[0m")
-            print("Remarks:\x1b[38;5;88mFailed\x1b[0m")
+            print("Remarks: \x1b[38;5;88mFailed\x1b[0m")
             print("\033[1mYour grade has been recorded.\033[0m")
 
 
