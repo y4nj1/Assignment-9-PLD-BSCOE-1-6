@@ -12,3 +12,15 @@
 # 3. Set-up the code that will convert the .json file into a .pdf file
 # 4. Format the final output.
 
+from fpdf import FPDF
+import json
+from ctypes import alignment
+
+#PDF Format
+pdf = FPDF('P', 'mm', "Letter")
+pdf.add_page() 
+
+#Read Information
+Resume_Info = open('sampleresume.json', 'r')
+PDFCreator = Resume_Info.read()
+Raw_Info = json.loads(PDFCreator)
