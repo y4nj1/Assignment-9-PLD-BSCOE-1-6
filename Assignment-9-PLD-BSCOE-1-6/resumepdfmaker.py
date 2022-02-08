@@ -112,4 +112,4 @@ for information in Raw_Info:
     pdf.set_font('helvetica', 'I', 12)
     pdf.cell(0, 5, f"{information['RContact']}", align='L', ln=1)
 
-pdf.output('ESTRELLA_GIAN CARLO.pdf')
+pdf.output('ESTRELLA_GIAN_CARLO.pdf')
