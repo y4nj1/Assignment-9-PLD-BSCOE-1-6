@@ -15,9 +15,11 @@
         "Primary" : "Redwood Middle School", 
         "Padd": "E. Amerige Street, Warner Robins, GA 31088",
         "header4" : "Work Experience",
-        "Software Engineer": "Sodwe Studio", 
+        "Work1": "Software Engineer",
+        "Company1": "Sodwe Studio", 
         "Wyear1" : "2018-2021",
-        "Junior Engineer":"Rimberio Co.", 
+        "Work2": "Junior Engineer",
+        "Company2": "Rimberio Co.", 
         "Wyear2": "2016-2018",
         "header5": "Skills",
         "Skill1" : "Adaptive", 
@@ -25,6 +27,8 @@
         "Skill3": "Software Maintenance", 
         "Skill4": "Computer Programming",
         "header6": "References",
-        "REFERENCES" : ["Olivia Wilson", "Manager", "+1 989-456-7898"]
+        "REFERENCE" : "Olivia Wilson", 
+        "Occupation": "Manager", 
+        "RContact": "+1 989-456-7898"
     }
 ]
